@@ -2,18 +2,18 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 // Import router components
-import StoreList from "./components/StoreList.vue";
+import Home from "./components/Home.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    name: "storeList",
+    name: "Home",
     path: "/",
-    component: StoreList,
+    component: Home,
     meta: {
       requiresAuth: true,
-      displayName: "Store list"
+      displayName: "Brasserie Alteration - Accueil"
     },
   },
  
